@@ -5,11 +5,11 @@ inputs:
     descripcion: 'Para quien es el saludo'
     required: true
     deafult: 'todos'
- outputs:
-    hora:
-      descripcion: 'la hora del saludito'
- runs:
-    using: 'Docker'
-    image: 'Dockerfile'
-    args:
-      - ${{ inputs.quien }}
+outputs:
+  hora:
+    descripcion: 'la hora del saludito'
+runs:
+   using: 'Docker'
+   image: 'Dockerfile'
+   args:
+     - ${{ inputs.quien }}
