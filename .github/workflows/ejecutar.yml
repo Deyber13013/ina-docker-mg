@@ -6,9 +6,9 @@ jobs:
       name: 'tarea para saludarme'
       steps:
        - name: 'ejecutar la accions del docker'
-       - id: hola
+         id: hola
          uses: ina-docker-mg/accion@v1
          with:
-           quien: 'Lucho'
+            quien: 'Lucho'
         - name: 'Mostrar la hora obtenida'
           run: echo "la hora obtenida fue ${{ steps.hola.outputs.hora }}"
