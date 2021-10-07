@@ -1,13 +1,13 @@
 name: 'Saludo desde Docker'
-descripcion: 'Hace un saludo desde el contenedor'
+description: 'Hace un saludo desde el contenedor'
 inputs:
   quien:
-    descripcion: 'Para quien es el saludo'
+    description: 'Para quien es el saludo'
     required: true
     deafult: 'todos'
 outputs:
   hora:
-    descripcion: 'la hora del saludito'
+    description: 'la hora del saludito'
 runs:
    using: 'Docker'
    image: 'Dockerfile'
