@@ -7,7 +7,7 @@ jobs:
       steps:
        - name: 'ejecutar la accions del docker'
          id: hola
-         uses: Deyber13013/ina-docker-mg/action@main
+         uses: Deyber13013/ina-docker-mg/mg@main
          with:
             quien: 'Lucho'
        - name: 'Mostrar la hora obtenida'
