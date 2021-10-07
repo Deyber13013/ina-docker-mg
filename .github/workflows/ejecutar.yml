@@ -3,7 +3,7 @@ on: push
 jobs:
   saludar:
       runs-on: ubuntu-latest
-      name: 'tarea para saludarme'
+      name: 'tarea para saludarme 2'
       steps:
        - name: 'ejecutar la accions del docker'
          id: hola
